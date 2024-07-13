@@ -1,0 +1,18 @@
+{
+  "name": "cabinet",
+  "version": "1.0.0",
+  "description": "\"une application web de gestion\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha tests/*.js",
+    "build": "parcel build index.html",
+    "watch": "parcel watch index.html",
+    "clean": "rd /s /q dist"
+  },
+  "author": "meryem",
+  "license": "ISC",
+  "dependencies": {
+    "@fullcalendar/core": "^6.1.11",
+    "@fullcalendar/daygrid": "^6.1.11"
+  }
+}
